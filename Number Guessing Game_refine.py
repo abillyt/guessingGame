@@ -114,7 +114,6 @@ def guessGame():
         if count == 21:
             print("Game over. You lose.", "A loo hoo, ser.\n")
     print("Thanks for playing!\n\n")
-    play = input("want to play again? y/n?\n")
     
         
 
@@ -124,6 +123,7 @@ play = input("Want to play?  y/n?")
 while play == "y":
     print("Great, let's play!")
     guessGame()
+    play = input("want to play again? y/n?\n")
 
 if play == "n":
     print("Okay, well, that's fine, I guess.")
